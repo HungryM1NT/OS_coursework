@@ -1,0 +1,10 @@
+[Unit]
+Description=Coursework server 2
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/m1nt/Rust/coursework/server_2/target/debug/server_2
+
+[Install]
+WantedBy=multi-user.target

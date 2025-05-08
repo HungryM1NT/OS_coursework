@@ -1,0 +1,10 @@
+[Unit]
+Description=Coursework server 1 timer
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=start_server_1.service
+
+[Install]
+WantedBy=timers.target
